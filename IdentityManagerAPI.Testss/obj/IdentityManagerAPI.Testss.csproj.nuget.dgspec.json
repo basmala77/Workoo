@@ -1,0 +1,563 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hp\\IdentityManagerAPI\\DataAcess\\DataAcess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\IdentityManagerAPI\\DataAcess\\DataAcess.csproj",
+        "projectName": "DataAcess",
+        "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\DataAcess\\DataAcess.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\IdentityManagerAPI\\DataAcess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\hp\\IdentityManagerAPI\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManager.Services\\IdentityManager.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManager.Services\\IdentityManager.Services.csproj",
+        "projectName": "IdentityManager.Services",
+        "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManager.Services\\IdentityManager.Services.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManager.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\hp\\IdentityManagerAPI\\DataAcess\\DataAcess.csproj": {
+                "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\DataAcess\\DataAcess.csproj"
+              },
+              "C:\\Users\\hp\\IdentityManagerAPI\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj",
+        "projectName": "IdentityManagerAPI.Testss",
+        "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\IdentityManagerAPI.csproj": {
+                "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\IdentityManagerAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "JetBrains.Annotations": {
+              "target": "Package",
+              "version": "[2025.1.0-eap1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\IdentityManagerAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\IdentityManagerAPI.csproj",
+        "projectName": "IdentityManagerAPI",
+        "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\IdentityManagerAPI.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\hp\\IdentityManagerAPI\\DataAcess\\DataAcess.csproj": {
+                "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\DataAcess\\DataAcess.csproj"
+              },
+              "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManager.Services\\IdentityManager.Services.csproj": {
+                "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManager.Services\\IdentityManager.Services.csproj"
+              },
+              "C:\\Users\\hp\\IdentityManagerAPI\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.402.15, )"
+            },
+            "Accord.Statistics": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client.Core": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
+            "Microsoft.SemanticKernel": {
+              "target": "Package",
+              "version": "[1.44.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.18, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hp\\IdentityManagerAPI\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\IdentityManagerAPI\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\hp\\IdentityManagerAPI\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\IdentityManagerAPI\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Qv6iwBT/bGwXDOI9dM8nmFRtCVJ1VYmTC2SR4eMb1Lg=",
+  "Source": "IdentityManagerAPI",
+  "BasePath": "_content/IdentityManagerAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

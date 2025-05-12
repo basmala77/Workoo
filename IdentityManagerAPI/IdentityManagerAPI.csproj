@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	
+
+	
+  <ItemGroup>
+    <PackageReference Include="Accord.Statistics" Version="3.8.0" />
+    <PackageReference Include="AWSSDK.Core" Version="3.7.402.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="9.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client.Core" Version="9.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.44.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.0.18" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAcess\DataAcess.csproj" />
+    <ProjectReference Include="..\IdentityManager.Services\IdentityManager.Services.csproj" />
+    <ProjectReference Include="..\Models\Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+</Project>

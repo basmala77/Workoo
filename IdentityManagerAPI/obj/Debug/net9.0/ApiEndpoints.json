@@ -1,0 +1,265 @@
+[
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.ChatBot",
+    "Method": "Get",
+    "RelativePath": "api/AI/ask",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prompt",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "kernel",
+        "Type": "Microsoft.SemanticKernel.Kernel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.AuthUserController",
+    "Method": "Login",
+    "RelativePath": "api/AuthUser/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequestDto",
+        "Type": "Models.DTOs.Auth.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.AuthUserController",
+    "Method": "Register",
+    "RelativePath": "api/AuthUser/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequestDto",
+        "Type": "Models.DTOs.Auth.RegisterRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.LocationController",
+    "Method": "GetAllAction",
+    "RelativePath": "api/Location",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.LocationController",
+    "Method": "GetLocation",
+    "RelativePath": "api/Location/reverse-geocode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Models.DTOs.LocationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.ServiceRequestsController",
+    "Method": "GetAllService",
+    "RelativePath": "api/ServiceRequests/AllService",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.ServiceRequestsController",
+    "Method": "RequestService",
+    "RelativePath": "api/ServiceRequests/request-service",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "IdentityManagerAPI.Controllers.ServiceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.ServiceRequestsController",
+    "Method": "GetNearbyWorker",
+    "RelativePath": "api/ServiceRequests/workers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userLat",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "userLon",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.UserController",
+    "Method": "UploadUserImage",
+    "RelativePath": "api/User/uploadUserImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.WorkerController",
+    "Method": "GetWorker",
+    "RelativePath": "api/Worker/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.WorkerController",
+    "Method": "AddWorker",
+    "RelativePath": "api/Worker/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "worker",
+        "Type": "DataAcess.Worker",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.WorkerController",
+    "Method": "GetAllWorkers",
+    "RelativePath": "api/Worker/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.WorkerController",
+    "Method": "GetWorkersByCategory",
+    "RelativePath": "api/Worker/By_category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.WorkerController",
+    "Method": "DeleteWorker",
+    "RelativePath": "api/Worker/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.WorkerController",
+    "Method": "GetTopRatedWorkers",
+    "RelativePath": "api/Worker/Top_Worker",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdentityManagerAPI.Controllers.WorkerController",
+    "Method": "UpdateWorker",
+    "RelativePath": "api/Worker/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedWorker",
+        "Type": "DataAcess.Worker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
