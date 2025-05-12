@@ -4,5 +4,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=90a59686_002D089c_002D4727_002D9ed1_002D9438d80b93c9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetWorkersByCategory_ReturnsNotFound_WhenNoWorkersExist" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::B98C4485-A34C-4D99-A7FA-6EF3AB9496AF::net9.0::IdentityManagerAPI.Testss.WorkerControllerTest.GetWorkersByCategory_ReturnsNotFound_WhenNoWorkersExist&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B98C4485-A34C-4D99-A7FA-6EF3AB9496AF::net9.0::IdentityManagerAPI.Testss.ServiceRequestsControllerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B98C4485-A34C-4D99-A7FA-6EF3AB9496AF::net9.0::IdentityManagerAPI.Testss.WorkerControllerTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

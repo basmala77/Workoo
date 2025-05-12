@@ -11,11 +11,6 @@
         "Name": "prompt",
         "Type": "System.String",
         "IsRequired": false
-      },
-      {
-        "Name": "kernel",
-        "Type": "Microsoft.SemanticKernel.Kernel",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -11,7 +11,7 @@ public class ServiceRequestsControllerTests
 {
     private readonly Mock<IWorkerFacadeService> _workerFacadeMock;
     private readonly ServiceRequestsController _controller;
-
+    
     public ServiceRequestsControllerTests()
     {
         _workerFacadeMock = new Mock<IWorkerFacadeService>();
@@ -91,6 +91,7 @@ public class ServiceRequestsControllerTests
 
         // Assert
         var okResult = Assert.IsType<OkObjectResult>(result);
+
         var returnedWorkers = Assert.IsAssignableFrom<IEnumerable<Worker>>(okResult.Value);
         Assert.Equal(3, returnedWorkers.Count());
     }

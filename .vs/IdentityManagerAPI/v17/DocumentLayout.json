@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\IdentityManagerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C4485-A34C-4D99-A7FA-6EF3AB9496AF}|IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi.testss\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C4485-A34C-4D99-A7FA-6EF3AB9496AF}|IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj|solutionrelative:identitymanagerapi.testss\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C4485-A34C-4D99-A7FA-6EF3AB9496AF}|IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi.testss\\servicerequestscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C4485-A34C-4D99-A7FA-6EF3AB9496AF}|IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj|solutionrelative:identitymanagerapi.testss\\servicerequestscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\controllerservice\\distanceandratingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\controllerservice\\distanceandratingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B98C4485-A34C-4D99-A7FA-6EF3AB9496AF}|IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi.testss\\workercontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B98C4485-A34C-4D99-A7FA-6EF3AB9496AF}|IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj|solutionrelative:identitymanagerapi.testss\\workercontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\controllerservice\\distancestrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\controllerservice\\distancestrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\controllerservice\\workerservicefacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\controllerservice\\workerservicefacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\controllerservice\\icontrollerservice\\idistancecalculationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\controllerservice\\icontrollerservice\\idistancecalculationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\controllers\\servicerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\controllers\\servicerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\controllers\\workercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\controllers\\workercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Program.cs",
+              "RelativeToolTip": "IdentityManagerAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T22:14:18.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\appsettings.json",
+              "RelativeToolTip": "IdentityManagerAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T22:13:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{da1e233c-cfa8-5021-b06c-abc3d02f44e8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\Class1.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI.Testss\\Class1.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\Class1.cs",
+              "RelativeToolTip": "IdentityManagerAPI.Testss\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:53:34.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DistanceAndRatingStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\DistanceAndRatingStrategy.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\ControllerService\\DistanceAndRatingStrategy.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\DistanceAndRatingStrategy.cs",
+              "RelativeToolTip": "IdentityManagerAPI\\ControllerService\\DistanceAndRatingStrategy.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:18:01.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WorkerServiceFacade.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\WorkerServiceFacade.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\ControllerService\\WorkerServiceFacade.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\WorkerServiceFacade.cs",
+              "RelativeToolTip": "IdentityManagerAPI\\ControllerService\\WorkerServiceFacade.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAEEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T19:18:48.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DistanceStrategyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\DistanceStrategyFactory.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\ControllerService\\DistanceStrategyFactory.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\DistanceStrategyFactory.cs",
+              "RelativeToolTip": "IdentityManagerAPI\\ControllerService\\DistanceStrategyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:18:04.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceRequestsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\ServiceRequestsControllerTests.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI.Testss\\ServiceRequestsControllerTests.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\ServiceRequestsControllerTests.cs",
+              "RelativeToolTip": "IdentityManagerAPI.Testss\\ServiceRequestsControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T18:43:11.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDistanceCalculationStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\IControllerService\\IDistanceCalculationStrategy.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\ControllerService\\IControllerService\\IDistanceCalculationStrategy.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\IControllerService\\IDistanceCalculationStrategy.cs",
+              "RelativeToolTip": "IdentityManagerAPI\\ControllerService\\IControllerService\\IDistanceCalculationStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:18:19.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkerControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\WorkerControllerTest.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI.Testss\\WorkerControllerTest.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\WorkerControllerTest.cs",
+              "RelativeToolTip": "IdentityManagerAPI.Testss\\WorkerControllerTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T18:42:02.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "IdentityManagerAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:21:38.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\NotificationService.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\NotificationService.cs",
+              "RelativeToolTip": "IdentityManagerAPI\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T19:07:28.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Controllers\\ServiceRequestsController.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\Controllers\\ServiceRequestsController.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Controllers\\ServiceRequestsController.cs",
+              "RelativeToolTip": "IdentityManagerAPI\\Controllers\\ServiceRequestsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T19:03:50.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WorkerController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Controllers\\WorkerController.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\Controllers\\WorkerController.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Controllers\\WorkerController.cs",
+              "RelativeToolTip": "IdentityManagerAPI\\Controllers\\WorkerController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T19:03:56.995Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

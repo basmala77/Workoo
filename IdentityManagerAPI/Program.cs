@@ -13,7 +13,7 @@ using IdentityManagerAPI.ControllerService.IControllerService;
 using IdentityManagerAPI.ControllerService;
 using IdentityManagerAPI.Repos.IRepos;
 using IdentityManagerAPI.Repos;
-//using Microsoft.SemanticKernel;
+using Microsoft.SemanticKernel;
 using IdentityManagerAPI;
 using OpenStreetMapAdapter = IdentityManagerAPI.ControllerService.OpenStreetMapAdapter;
 using UserService = IdentityManagerAPI.ControllerService.UserService;
@@ -53,6 +53,7 @@ builder.Services.AddScoped<IGeolocationService, OpenStreetMapAdapter>();
 builder.Services.AddSingleton<NotificationService>();
 
 builder.Services.AddScoped<IWorkerFacadeService, WorkerFacadeService>();
+builder.Services.AddScoped<INotificationService, NotificationService>();
 builder.Services.AddScoped<ServiceFactory>();
 
 // Add Services

@@ -24,7 +24,7 @@ namespace IdentityManagerAPI.ControllerService
 
         public WorkerFacadeService(
             IWorkerRepository workerRepository,
-         
+
             ServiceFactory serviceFactory,
             DistanceStrategyFactory strategyFactory,
             ApplicationDbContext context,
@@ -60,15 +60,30 @@ namespace IdentityManagerAPI.ControllerService
                 .OrderByDescending(w => strategy.CalculateSorting(w, userLat, userLon))
                 .ToList();
         }
+        // 2 code smells : long method and type tests
+        // public async Task<bool> HandleServiceRequest(ServiceRequest request)
+        // {
+        //     var service = _serviceFactory.CreateService(request.ServiceType);
+        //     if (service == null)
+        //         return false;
+        //     _context.ServiceRequests.Add(request);
+        //     await _context.SaveChangesAsync();
+        //     return true;
+        // }
 
         public async Task<bool> HandleServiceRequest(ServiceRequest request)
         {
-            var service = _serviceFactory.CreateService(request.ServiceType);
-            if (service == null)
+            if (!_serviceFactory.IsServiceRegistered(request.ServiceType))
                 return false;
+
+            var service = _serviceFactory.CreateService(request.ServiceType);
+            await SaveRequestAsync(request);
+            return true;
+        }
+        private async Task SaveRequestAsync(ServiceRequest request)
+        {
             _context.ServiceRequests.Add(request);
             await _context.SaveChangesAsync();
-            return true;
         }
         public async Task<Worker?> GetWorkerById(int id)
         {
