@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\IdentityManagerAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2748F6A5-B78D-4782-A185-F5DC1B4944B4}|IdentityManagerAPI\\IdentityManagerAPI.csproj|solutionrelative:identitymanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B98C4485-A34C-4D99-A7FA-6EF3AB9496AF}|IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj|c:\\users\\hp\\identitymanagerapi\\identitymanagerapi.testss\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B98C4485-A34C-4D99-A7FA-6EF3AB9496AF}|IdentityManagerAPI.Testss\\IdentityManagerAPI.Testss.csproj|solutionrelative:identitymanagerapi.testss\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,19 +79,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Program.cs",
+              "RelativeToolTip": "IdentityManagerAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T22:14:18.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "IdentityManagerAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\appsettings.json",
+              "RelativeToolTip": "IdentityManagerAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T22:13:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{da1e233c-cfa8-5021-b06c-abc3d02f44e8}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\Class1.cs",
               "RelativeDocumentMoniker": "IdentityManagerAPI.Testss\\Class1.cs",
               "ToolTip": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\Class1.cs",
               "RelativeToolTip": "IdentityManagerAPI.Testss\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T21:53:34.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DistanceAndRatingStrategy.cs",
               "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\DistanceAndRatingStrategy.cs",
               "RelativeDocumentMoniker": "IdentityManagerAPI\\ControllerService\\DistanceAndRatingStrategy.cs",
@@ -96,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "WorkerServiceFacade.cs",
               "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\WorkerServiceFacade.cs",
               "RelativeDocumentMoniker": "IdentityManagerAPI\\ControllerService\\WorkerServiceFacade.cs",
@@ -109,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DistanceStrategyFactory.cs",
               "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\DistanceStrategyFactory.cs",
               "RelativeDocumentMoniker": "IdentityManagerAPI\\ControllerService\\DistanceStrategyFactory.cs",
@@ -122,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ServiceRequestsControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\ServiceRequestsControllerTests.cs",
               "RelativeDocumentMoniker": "IdentityManagerAPI.Testss\\ServiceRequestsControllerTests.cs",
@@ -134,12 +176,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IDistanceCalculationStrategy.cs",
               "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\ControllerService\\IControllerService\\IDistanceCalculationStrategy.cs",
               "RelativeDocumentMoniker": "IdentityManagerAPI\\ControllerService\\IControllerService\\IDistanceCalculationStrategy.cs",
@@ -152,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "WorkerControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI.Testss\\WorkerControllerTest.cs",
               "RelativeDocumentMoniker": "IdentityManagerAPI.Testss\\WorkerControllerTest.cs",
@@ -165,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "IdentityManagerAPI\\Controllers\\UserController.cs",
@@ -178,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "NotificationService.cs",
               "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\NotificationService.cs",
               "RelativeDocumentMoniker": "IdentityManagerAPI\\NotificationService.cs",
@@ -190,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ServiceRequestsController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Controllers\\ServiceRequestsController.cs",
               "RelativeDocumentMoniker": "IdentityManagerAPI\\Controllers\\ServiceRequestsController.cs",
@@ -202,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "WorkerController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\IdentityManagerAPI\\IdentityManagerAPI\\Controllers\\WorkerController.cs",
               "RelativeDocumentMoniker": "IdentityManagerAPI\\Controllers\\WorkerController.cs",
@@ -211,10 +249,6 @@
               "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T19:03:56.995Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{da1e233c-cfa8-5021-b06c-abc3d02f44e8}"
             }
           ]
         }

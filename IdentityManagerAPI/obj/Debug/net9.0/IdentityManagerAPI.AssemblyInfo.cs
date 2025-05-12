@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IdentityManagerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53a8c001bac2592410af9d8daf119a01cf192766")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfd38aa2c6ba79f2c579f825612ace3f184cfe71")]
 [assembly: System.Reflection.AssemblyProductAttribute("IdentityManagerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IdentityManagerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
